@@ -793,6 +793,9 @@ header .nav__ul__li-manu {
     display: none;
   }
 }
+.easy {
+  margin-bottom: 45px;
+}
 .easy__wrapper {
   width: 100%;
   display: -webkit-box;
@@ -806,6 +809,7 @@ header .nav__ul__li-manu {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 25px 0;
 }
 .easy__wrapper__title {
   width: 40%;
