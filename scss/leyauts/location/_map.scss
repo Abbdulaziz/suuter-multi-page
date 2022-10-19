@@ -1,0 +1,49 @@
+.map {
+    width: 100%;
+    background: url(../../../img/Group7.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-size: 80vw 40vw;
+    background-position: center center;
+    position: relative;
+
+
+
+
+  
+
+}
+
+@media only screen and(max-width:1024px) {
+    .map {
+        height: 65vh;
+        
+    }
+}
+
+@media only screen and(max-width:768px) {
+    .map {
+        height: 45vh;
+        
+    }
+}
+
+@media only screen and(max-width:568px) {
+    .map {
+        width: 100%;
+        background: url(../../../img/Group24.png);
+        background-repeat: no-repeat;
+        height: 40vh;
+        background-size: cover;
+        background-size: 80vw 40vw;
+        background-position: center center;
+        position: relative;
+    
+    
+    
+    
+        
+    
+    }
+}

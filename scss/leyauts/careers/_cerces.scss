@@ -1,0 +1,35 @@
+.cersec {
+    position: relative;
+    top: 55px;
+    background: url(../../../img//Bitmap22222.png);
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    &__wrapper{
+        h1{
+            padding: 15px 25px;
+        }
+    }
+}
+@media only  screen and (max-width:756px){
+    .cersec {
+        position: relative;
+        top: 55px;
+        background: url(../../../img//Bitmap22222.png);
+        width: 100%;
+        height: 150px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 45px;
+        text-align: center;
+
+        z-index: -1;
+        &__wrapper{
+            h1{
+                padding: 15px 25px;
+            }
+        }
+    }
+}

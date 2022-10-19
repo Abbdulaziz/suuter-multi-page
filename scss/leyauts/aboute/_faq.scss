@@ -1,0 +1,43 @@
+.faq {
+    margin: 35px 0;
+
+    h2 {
+        margin: 35px 0;
+        text-align: center;
+
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: flex-start;
+        flex-wrap: wrap;
+
+        &__right {
+            margin: 32px 40px;
+        }
+
+        &__left {
+            width: 730px;
+
+            &-box {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                padding: 32px 40px;
+                background: #F2F5F9;
+                margin: 15px;
+                &:hover {
+                    background: #FFF4DF;
+                }
+                i{
+                    color: #FCB72B;
+                    font-size: 24px;
+                }
+            }
+
+        }
+
+    }
+}

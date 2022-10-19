@@ -1,0 +1,83 @@
+
+
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Space Mono', monospace;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono:wght@400;700&display=swap');
+}
+
+h1 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #495567
+}
+
+h3 {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1;
+    color: #495567;
+}
+
+h4 {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #495567
+}
+
+p {
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.7px;
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -1.4px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 28px;
+        letter-spacing: -0.8;
+    }
+
+    h4 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+}

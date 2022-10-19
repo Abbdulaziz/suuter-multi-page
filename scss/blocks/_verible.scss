@@ -1,0 +1,27 @@
+//------------------------------- color weribles
+$yellow: #FCB72B;
+$dark: #495567;
+$dim: #939CAA;
+$ligt-grey: #E5ECF4;
+$snow: #F2F5F9;
+$light-yellow: #FFF4DF;
+
+.btn {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    background: #FCB72B ;
+    padding: 15px 40px;
+    color: #fff;
+    border: 1px solid #FCB72B;
+    cursor: pointer;
+    &:hover{
+        background: transparent;
+        border: 1px solid #FCB72B;
+        color: #FCB72B;
+    }
+}
+

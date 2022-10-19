@@ -1,0 +1,45 @@
+.jingalak{
+    margin: 80px 0;
+
+    &__wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        &__card{
+            width: 48%;
+            img{
+                width: 400px;
+                height: 400px;
+                border-radius: 50%;
+            }
+        }
+
+    }
+}
+
+@media only screen and(max-width:768px){
+    .jingalak{
+        margin-top: 80px;
+    
+        &__wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+            text-align: center;
+            width: 100%;
+            &__card{
+                width: 80%;
+                img{
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 50%;
+                }
+            }
+    
+        }
+    }
+}

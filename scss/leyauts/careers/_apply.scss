@@ -1,0 +1,45 @@
+.apply{
+    margin-bottom: 100px;
+    &__wrapper{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        &__card{
+            padding: 25px 55px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            background: #e1ebf8;
+            margin: 15px 0;
+        }
+    }
+}
+
+@media only screen and(max-width:576px){
+    .apply{
+        margin-bottom: 100px;
+        &__wrapper{
+            display: flex;
+            width: 100%;
+            align-items: center;
+            flex-direction: column;
+            &__card{
+                padding: 15px 25px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                width: 80%;
+                background: #e1ebf8;
+                margin: 15px 0;
+                text-align: center;
+                .btn{
+                    width: 80%;
+                    padding: 5px 15px !important;
+                    border-radius: 16px;
+                }
+            }
+        }
+    }
+}
